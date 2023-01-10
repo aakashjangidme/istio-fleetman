@@ -1,0 +1,7 @@
+---
+
+-- should return 90 / 10 routing traffic result when queried post applying 3-istio-rules.yaml
+
+while true; do curl 'http://fleetman.com:30080/api/vehicles/driver/City%20Truck'; echo; sleep 0.5; done
+
+while true; do curl 'http://fleetman.com/api/vehicles/driver/City%20Truck'; echo; sleep 0.5; done
